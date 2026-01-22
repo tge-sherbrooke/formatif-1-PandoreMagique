@@ -1,0 +1,12 @@
+# Dépendances Python pour le formatif F1
+# Semaine 1 - Introduction au Raspberry Pi et BMP280
+
+# Bibliothèque principale pour le capteur BMP280
+adafruit-circuitpython-bmp>=3.7.0
+
+# Bibliothèque de bas niveau pour GPIO/I2C
+adafruit-blinka>=8.0.0
+
+# Pour les tests (optionnel, requis pour l'auto-correction)
+pytest>=7.0.0
+pytest-mock>=3.10.0
