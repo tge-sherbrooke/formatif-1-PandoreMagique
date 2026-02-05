@@ -1,0 +1,18 @@
+Test Summary for Formatif F1
+Generated: 2026-02-05T10:38:29.238717
+Tests Run: 4
+
+Markers:
+  - bmp280_script_verified: BMP280 script verified: 2026-02-05T10:38:29.091949
+  - hardware_detected: Hardware scan: 2026-02-05T10:38:29.235693
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+00:                         -- -- -- -- -- -- -- -- 
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+30: 30 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+70: -- -- -- -- -- -- -- 77
+  - neoslider_script_verified: NeoSlider script verified: 2026-02-05T10:38:29.095459
+  - ssh_key_verified: SSH key verified: 2026-02-05T10:38:29.074361

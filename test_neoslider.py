@@ -1,14 +1,14 @@
 # /// script
 # requires-python = ">=3.9"
-# dependencies = ["adafruit-circuitpython-seesaw", "adafruit-blinka"]
+# dependencies = ["adafruit-circuitpython-seesaw", "adafruit-blinka", "rpi.gpio"]
 # ///
 """Test du NeoSlider - Animation arc-en-ciel sur les LEDs."""
 
-import board
-import time
-from rainbowio import colorwheel
-from adafruit_seesaw.seesaw import Seesaw
-from adafruit_seesaw import neopixel
+import board 
+import time 
+from rainbowio import colorwheel 
+from adafruit_seesaw.seesaw import Seesaw 
+from adafruit_seesaw import neopixel 
 
 # Configuration NeoSlider
 i2c = board.I2C()

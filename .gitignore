@@ -43,7 +43,6 @@ Thumbs.db
 
 # Test markers - DO NOT commit manually!
 # These are created by run_tests.py on the Raspberry Pi
-.test_markers/
+# .test_markers/ is now allowed (created by run_tests.py)
 
 # But keep the .gitkeep file if we want the folder structure preserved
-!.test_markers/.gitkeep
